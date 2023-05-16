@@ -1,0 +1,105 @@
+.play {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 70%;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-align: center;
+
+  font-size: 35px;
+  background-color: gold;
+  border-radius: 10px;
+  width: 200px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.encabezado {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 30%;
+  font-size: 90px;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+#portada {
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/582/107/original/poker-black-background-playing-card-symbols-pattern-blackjack-vector.jpg);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  display: block;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+#dealer-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#your-cards img {
+  height: 175px;
+  width: 125px;
+  margin: 1px;
+}
+
+#hit {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: chartreuse;
+  color: #fff;
+  border-radius: 5px;
+}
+
+#stay {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 5px;
+}
+#reset{
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  background-color: red;
+  color: #fff;
+}
+#playgame{
+  background-image: url(https://static.vecteezy.com/system/resources/previews/002/582/107/original/poker-black-background-playing-card-symbols-pattern-blackjack-vector.jpg);
+  background-size: cover;
+  display:none;
+}
+p{
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 40%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 160px;
+  color: gold;
+  width: 100%;
+  height: 10%;
+  opacity: 1;
+  animation-duration: 2s;
+  transition: opacity 1s ease-in-out;
+}
+@media (max-width:600px){
+  p{
+    font-size: xx-large;
+  }
+}
